@@ -1,16 +1,14 @@
-# flutter_mqtt
+# flutter mqtt client
 
-A new Flutter application.
+使用flutter集成mqtt与mosquitto通讯，实现订阅和发布功能
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+命令行下载包
+flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+打包安装到android手机
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+mqtt broker指定msmk/flutter/pick/light主题发布消息
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+app上点击+号就可以打印主题消息
